@@ -4,5 +4,5 @@ module.exports = {
         disableHostCheck: true,
         public: '0.0.0.0:6006'
     },
-    publicPath: "/sapienza/"
+    publicPath: process.env.NODE_ENV === 'production' ? '/sapienza/' : '/'
 }
