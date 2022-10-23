@@ -4,5 +4,5 @@ module.exports = {
         disableHostCheck: true,
         public: '0.0.0.0:6006'
     },
-    publicPath: "/sapiensa-front/"
+    publicPath: "/sapienza/"
 }
